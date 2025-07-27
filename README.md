@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🌳 Tree Planting Tracker — Pixel Style
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A warm, interactive app where users log trees they've planted, join events, track environmental impact, and explore a pixel-art inspired world map — all while enjoying plant facts, visual growth stages, and cozy seasonal themes.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+### 🗺️ World Greenery Map
+- Interactive pixel-art world map with forest coverage
+- Color-coded greenery levels
+- Tooltips with regional details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🌱 Planting & Community
+- Tree planting form with species, count, location, and optional message
+- Create or join tree-planting events
+- Real-time XP gain and impact tracking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🌳 Tree Growth System
+- Growth stages: seedling → sapling → mature tree
+- Visual scaling and emoji-based age progression
+- Environmental impact metrics for each planting
 
-### `npm test`
+### 🧠 Education & Fun
+- Random plant/tree fact modal
+- Achievements: earned & locked states
+- Global leaderboard and user stats
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 UI/UX & Styling
+- Fully pixel-art styled components
+- Smooth hover/entry animations
+- Daisy-shaped custom cursor
+- Seasonal color themes that shift dynamically
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎥 Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Watch the demo](https://img.youtube.com/vi/6N4DSjMR310/0.jpg)](https://youtu.be/6N4DSjMR310)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** with functional components
+- **Tailwind CSS** for styling
+- **Lucide-react** for icons
+- **Modular component structure**
+- *(Optional backend: Flask or Firebase for data persistence)*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the repository
 
-## Learn More
+```bash
+git clone https://github.com/Zainab-Ayoub/tree-planting-tracker.git
+cd tree-planting-tracker
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run dev
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+arduino
+http://localhost:5173
